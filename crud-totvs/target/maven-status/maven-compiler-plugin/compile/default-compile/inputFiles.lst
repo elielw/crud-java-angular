@@ -1,0 +1,9 @@
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/repository/TelefoneRepository.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/controller/ClienteController.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/service/ClienteService.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/Application.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/model/Cliente.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/repository/ClienteRepository.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/model/Telefone.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/error/GlobalExceptionHandler.java
+/home/eliel/projetos/projeto-totvs/crud-totvs/src/main/java/com/totvs/dto/ClienteDTO.java

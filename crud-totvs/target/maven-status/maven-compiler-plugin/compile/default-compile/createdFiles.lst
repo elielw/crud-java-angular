@@ -1,0 +1,9 @@
+com/totvs/model/Cliente.class
+com/totvs/dto/ClienteDTO.class
+com/totvs/Application.class
+com/totvs/repository/TelefoneRepository.class
+com/totvs/repository/ClienteRepository.class
+com/totvs/model/Telefone.class
+com/totvs/controller/ClienteController.class
+com/totvs/service/ClienteService.class
+com/totvs/error/GlobalExceptionHandler.class

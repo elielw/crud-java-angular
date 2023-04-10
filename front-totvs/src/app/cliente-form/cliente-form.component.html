@@ -1,0 +1,24 @@
+<form (ngSubmit)="onSubmit()">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" [(ngModel)]="nome">
+    <br>
+    <label for="endereco">Endereço:</label>
+    <input type="text" id="endereco" name="endereco" [(ngModel)]="endereco">
+    <br>
+    <label for="bairro">Bairro:</label>
+    <input type="text" id="bairro" name="bairro" [(ngModel)]="bairro">
+  
+    <br><br>
+    <label for="telefones">Telefones:</label>
+    <div *ngFor="let telefone of telefones; let i=index; trackBy: trackByFn">
+      <input type="text" id="telefone{{i}}" name="telefone{{i}}" [(ngModel)]="telefones[i]">
+    </div>
+  
+    <button type="button" (click)="addTelefone()">Adicionar Telefone</button>
+    <button type="submit">Enviar Dados</button>
+  
+    <div *ngIf="successMessage" class="alert alert-success">
+      {{ successMessage }}
+    </div>
+    
+  </form>
